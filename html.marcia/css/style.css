@@ -1,0 +1,50 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#menu-hori ul{
+   list-style: none;
+   background-color: #f67c92;
+   height: 50px;
+   float: right;
+   padding: 15px;
+
+}
+#menu-hori ul li{
+   display: inline;
+}
+
+#menu-hori{
+   padding: 10px;
+}
+
+#menu-hori ul li a{
+   padding: 10px;
+   text-decoration: none;
+   color: #fff;
+}
+
+#menu-honri ul li a:hover{
+   background-color: cornflowerblue;
+   color: beige;
+   transition-duration: 2;
+}
+
+#logo{
+   width: 100px;
+   margin-top: 30px;
+}
+
+header{
+   height: 100vh;
+   background-image: url(../imagens/fundo.png);
+   background-position: center;
+   background-size: cover;
+}
+
+#sobre{
+   padding: 100px 0;
+   display: flex;
+}
+
